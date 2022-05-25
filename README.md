@@ -1,1 +1,3 @@
-# Collections of Code Related Projects/assignments
+# Collections of Code Related Projects/Assignments
+# Lendel Deguia
+ 
