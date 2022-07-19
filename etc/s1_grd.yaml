@@ -1,0 +1,23 @@
+---
+
+name: s1_grd
+metadata_type: eo
+description: Sentinel-1A GRD scenes 
+metadata:
+  product_type: GRD
+  platform:
+    code: SENTINEL_1
+  instrument:
+    name: SAR
+  format:
+    name: GeoTiff
+measurements:
+- name: vh
+  dtype: float32
+  units: DN
+  nodata: 0
+- name: vv
+  dtype: float32
+  units: DN
+  nodata: 0
+...
