@@ -1,0 +1,92 @@
+name: ls4_TM_level1_usgs_GS
+description: Landsat 4 USGS Level 1 Collection-2 TM
+metadata_type: eo
+
+metadata:
+    platform:
+        code: LANDSAT_4
+    instrument:
+        name: TM
+    product_type: L1GS
+    format:
+        name: GeoTiff
+
+measurements:
+    - name: 'blue'
+      aliases: [band_1, blue]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'green'
+      aliases: [band_2, green]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'red'
+      aliases: [band_3, red]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'nir'
+      aliases: [band_4, nir]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'swir1'
+      aliases: [band_5, swir1]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'thermal'
+      aliases: [band_6, lwir]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+
+    - name: 'swir2'
+      aliases: [band_7, swir2]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_p'
+      aliases: [QUALITY_P, quality_p]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_r'
+      aliases: [QUALITY_R, quality_r]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'vaa'
+      aliases: [SENSOR_AZIMUTH, sensor_azimuth]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'vza'
+      aliases: [SENSOR_ZENITH, sensor_zenith]
+      dtype: int16
+      nodata: 0
+      units: '1'    
+
+    - name: 'saa'
+      aliases: [SOLAR_AZIMUTH, solar_azimuth]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'sza'
+      aliases: [SOLAR_ZENITH, solar_zenith]
+      dtype: int16
+      nodata: 0
+      units: '1'        
