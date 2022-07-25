@@ -1,0 +1,91 @@
+name: ls9_level1_usgs_GT
+description: Landsat 9 USGS Level 1 Collection-2 OLI-TIRS
+metadata_type: eo
+
+metadata:
+    platform:
+        code: LANDSAT_9
+    instrument:
+        name: OLI_TIRS
+    product_type: L1GT
+    format:
+        name: GeoTiff
+
+measurements:
+    - name: 'coastal_aerosol'
+      aliases: [band_1, coastal_aerosol]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'blue'
+      aliases: [band_2, blue]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'green'
+      aliases: [band_3, green]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'red'
+      aliases: [band_4, red]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'nir'
+      aliases: [band_5, nir]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'swir1'
+      aliases: [band_6, swir1]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'swir2'
+      aliases: [band_7, swir2]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'panchromatic'
+      aliases: [band_8, panchromatic]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'cirrus'
+      aliases: [band_9, cirrus]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'lwir1'
+      aliases: [band_10, lwir1]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'lwir2'
+      aliases: [band_11, lwir2]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_p'
+      aliases: [QUALITY_P, quality_p]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_r'
+      aliases: [QUALITY_R, quality_r]
+      dtype: int16
+      nodata: 0
+      units: '1'    
