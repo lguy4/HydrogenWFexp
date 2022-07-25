@@ -1,0 +1,49 @@
+name: ls1_level1_usgs_TP
+description: Landsat 1 USGS Level 1 Collection-2 MSS
+metadata_type: eo
+
+metadata:
+    platform:
+        code: LANDSAT_1
+    instrument:
+        name: MSS
+    product_type: L1TP
+    format:
+        name: GeoTiff
+
+measurements:
+    - name: 'green'
+      aliases: [band_4, green]
+      dtype: uint8
+      nodata: 0
+      units: '1'
+
+    - name: 'red'
+      aliases: [band_5, red]
+      dtype: uint8
+      nodata: 0
+      units: '1'
+
+    - name: 'nir1'
+      aliases: [band_6, nir1]
+      dtype: uint8
+      nodata: 0
+      units: '1'
+
+    - name: 'nir2'
+      aliases: [band_7, nir2]
+      dtype: uint8
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_p'
+      aliases: [QUALITY_P, quality_p]
+      dtype: int16
+      nodata: 0
+      units: '1'
+
+    - name: 'quality_r'
+      aliases: [QUALITY_R, quality_r]
+      dtype: int16
+      nodata: 0
+      units: '1'      
