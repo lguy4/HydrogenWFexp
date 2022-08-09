@@ -1,5 +1,7 @@
 import numpy as np
 
+#used reference: https://brilliant.org/wiki/backpropagation/
+
 def sigmoid(x, derivative=False):
 
     if (derivative == True):
