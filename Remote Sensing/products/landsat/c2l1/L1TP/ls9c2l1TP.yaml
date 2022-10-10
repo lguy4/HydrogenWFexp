@@ -11,6 +11,15 @@ metadata:
     format:
         name: GeoTiff
 
+metadata:
+    platform:
+        code: LANDSAT_8
+    instrument:
+        name: OLI_TIRS
+    product_type: L1GT
+    format:
+        name: GeoTiff
+
 measurements:
     - name: 'coastal_aerosol'
       aliases: [band_1, coastal_aerosol]
@@ -251,7 +260,7 @@ measurements:
       aliases: [solar_zenith_band4]
       dtype: "int16"
       nodata: -32768
-      units: hundredth_degree'
+      units: 'hundredth_degree'
     - name: 'sensor_azimuth_band4'
       aliases: [sensor_azimuth_band4]
       dtype: "int16"
@@ -261,4 +270,4 @@ measurements:
       aliases: [sensor_zenith_band4]
       dtype: "int16"
       nodata: -32768
-      units: hundredth_degree'
+      units: 'hundredth_degree'
