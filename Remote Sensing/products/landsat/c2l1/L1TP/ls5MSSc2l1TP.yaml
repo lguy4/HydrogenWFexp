@@ -15,25 +15,25 @@ metadata:
 measurements:
     - name: 'green'
       aliases: [band_1, green]
-      dtype: int16
+      dtype: "uint8"
       nodata: 0
       units: '1'
 
     - name: 'red'
       aliases: [band_2, red]
-      dtype: int16
+      dtype: "uint8"
       nodata: 0
       units: '1'
 
     - name: 'nir1'
       aliases: [band_3, nir1]
-      dtype: int16
+      dtype: "uint8"
       nodata: 0
       units: '1'
 
     - name: 'nir2'
       aliases: [band_4, nir2]
-      dtype: int16
+      dtype: "uint8"
       nodata: 0
       units: '1'
 
