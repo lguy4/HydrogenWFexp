@@ -261,4 +261,4 @@ measurements:
       aliases: [sensor_zenith_band4]
       dtype: "int16"
       nodata: -32768
-      units: hundredth_degree'
+      units: 'hundredth_degree'
