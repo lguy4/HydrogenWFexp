@@ -47,41 +47,11 @@ measurements:
           values:
             0: false
             1: true
-        dilated_cloud:
-          bits: 1
-          values:
-            0: not_dilated
-            1: dilated
-        cirrus:
-          bits: 2
-          values:
-            0: not_high_confidence
-            1: high_confidence
         cloud:
           bits: 3
           values:
             0: not_high_confidence
             1: high_confidence
-        cloud_shadow:
-          bits: 4
-          values:
-            0: not_high_confidence
-            1: high_confidence
-        snow:
-          bits: 5
-          values:
-            0: not_high_confidence
-            1: high_confidence
-        clear:
-          bits: 6
-          values:
-            0: false
-            1: true
-        water:
-          bits: 7
-          values:
-            0: land_or_cloud
-            1: water
         cloud_confidence:
           bits: [8, 9]
           values:
@@ -89,28 +59,6 @@ measurements:
             1: low
             2: medium
             3: high
-        cloud_shadow_confidence:
-          bits: [10, 11]
-          values:
-            0: none
-            1: low
-            2: reserved
-            3: high
-        snow_ice_confidence:
-          bits: [12, 13]
-          values:
-            0: none
-            1: low
-            2: reserved
-            3: high
-        cirrus_confidence:
-          bits: [14, 15]
-          values:
-            0: none
-            1: low
-            2: reserved
-            3: high
-
 
 
     - name: 'quality_r'
@@ -154,48 +102,9 @@ measurements:
           values:
             0: false
             1: true
-        band_9_saturation:
-          bits: 8
+        dropped_pixel:
+          bits: 9
           values:
-            0: false
-            1: true
-        blue_saturation:
-          bits: 1
-          values:
-            0: false
-            1: true
-        green_saturation:
-          bits: 2
-          values:
-            0: false
-            1: true
-        red_saturation:
-          bits: 3
-          values:
-            0: false
-            1: true
-        nir_saturation:
-          bits: 4
-          values:
-            0: false
-            1: true
-        swir_1_saturation:
-          bits: 5
-          values:
-            0: false
-            1: true
-        swir_2_saturation:
-          bits: 6
-          values:
-            0: false
-            1: true
-        cirrus_saturation:
-          bits: 8
-          values:
-            0: false
-            1: true
-        terrain_occlusion:
-          bits: 11
-          values:
-            0: false
-            1: true
+            0: pixel_present
+            1: nodata
+
